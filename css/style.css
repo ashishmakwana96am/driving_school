@@ -42,7 +42,7 @@ img {
 }
 /* --header-- */
 header {
-  /* position: fixed; */
+  position: fixed;
   z-index: 99999;
   width: 100%;
 }
@@ -119,6 +119,10 @@ header {
   right: 7%;
   top: 50%;
   font-size: 50px;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover{
+  color: #000!important;
+  background-color: transparent!important;
 }
 
 #banner .owl-theme .owl-dots .owl-dot.active span {
@@ -213,9 +217,11 @@ header {
   height: 8px;
   border-radius: 20px;
 }
-
-.courses-data-2 img{
-  width: 100px!important;
+#coursesCarousel2{
+  padding: 0 100px;
+}
+#coursesCarousel2 .item img{
+width: 80px;
 }
 #coursesCarousel {
   padding: 80px 0;
@@ -231,12 +237,42 @@ header {
 }
 #coursesCarousel .courses-data img {
   margin-bottom: 30px;
-  /* width: 200px; */
-  height: 250px;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.5s;
+}
+.car-img-container {
+  overflow: hidden; /* Ensure the image is clipped when it moves */
+  width: 100%; /* Set the width of the container */
+  height: 300px; /* Set the height of the container */
+  position: relative; /* Position the container relative to the page */
+}
+
+.car-image {
+  width: 100%;
+  height: auto; 
+  position: absolute; 
+  animation: moveHorizontal 2s infinite alternate; 
+}
+
+
+
+@keyframes moveHorizontal {
+  from {
+      left: 0;
+  }
+  to {
+      left: 10%;
+  }
+}
+
+
+#coursesCarousel .courses-data img:hover{
+  transform: scale(1.3);
 }
 #coursesCarousel .courses-data .btn {
   border-radius: 20px;
@@ -255,7 +291,9 @@ header {
 #coursesCarousel2 {
   padding-top: 30px;
 }
-
+#coursesCarousel2 .owl-nav , #coursesCarousel2 .owl-dots{
+  display: none!important;
+}
 /* --vip-training-- */
 .vip-training {
   padding: 100px 0;
@@ -417,6 +455,9 @@ header {
 .connectus {
   padding-bottom: 100px;
 }
+#connectus .owl-nav{
+  display: none;
+}
 .connectus-header h2 {
   font-weight: 700;
   font-size: 40px;
@@ -491,22 +532,27 @@ footer {
 }
 
 /* --whychoose-- */
-.partners-logo {
+/* .partners-logo {
   padding: 100px 0;
-}
+} */
 .whychoose {
   height: 100%;
   width: 100%;
-  background: linear-gradient(8deg, #ee7623, #ee7623 63.5%, white 60%, white 0%);
-  padding-top: 40px;
-  padding-bottom: 100px;
+  /* background: linear-gradient(8deg, #ee7623, #ee7623 63.5%, white 60%, white 0%); */
+  background: linear-gradient(16deg, #ee7623, #ee7623 57.5%, white 57%, white 0%);
+    padding-top: 90px;
+  padding-bottom: 10px;
   color: var(--white-color);
   position: relative;
 }
+.whychoose .container{
+  padding-top: 400px;
+}
 .choose-img{
   position: absolute;
-  top: 0;
+  top:27%;
   right: 24%;
+  z-index: 3!important;
 }
 .choose-img img{
   width: 300px;
@@ -532,6 +578,7 @@ footer {
   height: 8px;
   border-radius: 20px;
 }
+
 .whychoose-header p{
   color: var(--white-color);
   font-size: 18px;
