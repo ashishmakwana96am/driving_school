@@ -261,14 +261,14 @@ width: 80px;
 
 
 
-@keyframes moveHorizontal {
+/* @keyframes moveHorizontal {
   from {
       left: 0;
   }
   to {
       left: 10%;
   }
-}
+} */
 
 
 #coursesCarousel .courses-data img:hover{
