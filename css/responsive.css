@@ -10,16 +10,34 @@
   height: 0;
 }
 }
+@media screen and (min-device-width: 991px) and (max-device-width: 1630px) { 
+
+ /* home hero */
+ .banner .item .row{
+  padding: 50px 0px 0 54px;
+}
+}
+
+@media screen and (min-device-width: 991px) and (max-device-width: 1200px) { 
+.services-data{
+  padding-bottom: 30px;
+}
+.services-img{
+  margin-top: 53px;
+}
+}
 @media (min-width: 1400px) {
-.courses #container-course{
-  max-width: 1580px;
-}
-.success .container{
-  max-width: 1512px;
-}
-.department .container{
-  max-width: 1550px;
-}
+  .courses #container-course{
+    max-width: 1580px;
+  }
+  .success .container{
+    max-width: 1512px;
+  }
+  .department .container{
+    max-width: 1550px;
+  }
+
+
 }
 @media (max-width: 1499px) {
   /* --header-- */
@@ -91,13 +109,14 @@
 
   /* --vip training-- */
   .training-rightdata h2{
-    padding-left: 90px;
-    padding-top: 90px;
     font-size: 30px;
 }
 .training-rightdata{
     background-color: var(--yellow-color);
     height: 670px;
+}
+.vip-training {
+  padding: 100px 0 40px;
 }
 .car-img img{
     width: 100%;
@@ -119,15 +138,41 @@ font-size: 36px;
 /* -- */
 .choose-img{
   top: 10%;
+  right: 10%;
 }
 .whychoose {
-  background: linear-gradient(21deg, #ee7623, #ee7623 63.5%, white 61%, white 0%);
+  
+    background: linear-gradient(22deg, #ee7623, #ee7623 72.5%, white 72%, white 0%);
+
 }
 .whychoose .container{
   padding-top: 223px;
 }
+
 }
 
+
+@media (max-width: 991px) {
+.services .container .row{
+flex-direction: column-reverse;
+}
+.services-img img {
+  margin-top: 30px;
+}
+.services-data{
+  text-align: center;
+}
+.services-data h2 {
+  max-width: 500px;
+  margin: 0 auto 30px;
+}
+.services-img img {
+  max-width: 500px;
+}
+.col-mobile{
+  text-align: center;
+}
+}
 @media (max-width: 768px) {
   /* --header-- */
   .navbar-collapse {
@@ -139,7 +184,7 @@ font-size: 36px;
     height: 570px;
 }
 .car-img img{
-    top: 57%;
+    top: 70%;
 }
 
 /* --services-- */
@@ -164,8 +209,8 @@ font-size: 24px;
 font-size: 14px;
   }
   .choose-img{
-    top: 6%;
-    right: 19%;
+    top: 7%;
+    right: 7%;
   }
   .whychoose{
     background: linear-gradient(22deg, #ee7623, #ee7623 74.5%, white 73%, white 0%);
@@ -186,14 +231,46 @@ font-size: 14px;
     padding-top: 10px;
   }
   .services-img img {
-    margin-top: -96px;
+    margin-top: 0px;
 }
+}
+@media (max-width:767px) {
+  /* banner */
+.banner-col{
+  margin-bottom: 30px;
+}
+.banner {
+  padding: 100px 0 0;
+}
+/* success */
+.success .border-right{
+border: none;
+}
+/* vip-training */
+.vip-training{
+  padding: 60px 0 0;
+}
+.vip-training .row{
+  row-gap: 30px;
+}
+.success{
+  padding: 60px 0;
+}
+.success-header h2{
+  font-size: 32px;
+}
+.connectus-header h2{
+  font-size: 28px;
+}
+.services-img {
+  margin-top: 0px;
+}
+
 }
 @media (max-width: 575px) {
   /* --banner-- */
   .banner {
-    padding: 100
-    px 0;
+    padding: 100px 0 40px;
   }
   .banner-content{
     text-align: center;
@@ -231,8 +308,6 @@ font-size: 14px;
 }
 .training-rightdata h2{
     max-width: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 /* --services-- */
 .services-data{
@@ -242,7 +317,9 @@ font-size: 14px;
 .services-data h2{
     font-size: 32px;
 }
-
+.services-img img {
+  max-width: 360px;
+}
 /* --success-- */
 .border-right{
     border-right: none;
@@ -262,14 +339,14 @@ footer .row > .col-12{
   width: 211px;
 }
 .choose-img{
-  top: 11%;
+  top: 7%;
   right: 16%;
 }
 .whychoose-header h2{
  font-size: 30px;
 }
 .whychoose{
-  background: linear-gradient(23deg, #ee7623, #ee7623 74.5%, white 73%, white 0%);
+  background: linear-gradient(23deg, #ee7623, #ee7623 79.5%, white 76%, white 0%);
 }
 .whychoose .container{
   padding-top: 300px;
@@ -286,14 +363,21 @@ footer .row > .col-12{
   #singleSlideCarousel .owl-prev {
     top: 160px;
   }
-
+  .choose-box{
+    height: auto;
+  }
+}
+@media (max-width:420px) {
+  /* banner */
+  .register-text {
+    display: none;
 }
 
+
+}
 @media (max-width: 375px) {
     .training-rightdata h2{
         max-width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
         font-size: 24px;
     }
     #coursesCarousel2 {
