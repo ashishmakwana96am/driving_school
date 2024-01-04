@@ -79,7 +79,13 @@ header {
 }
 
 /* --banner-- */
-
+/* .banner-img img{
+  height: 910px;
+}
+.owl-dots{
+  margin-top: -56px;
+    margin-left: -16px;
+} */
 .banner {
   padding: 50px 0;
 }
@@ -110,13 +116,13 @@ header {
 
 #singleSlideCarousel .owl-prev {
   position: absolute;
-  left: 7%;
+  left: 3%;
   top: 50%;
   font-size: 50px;
 }
 #singleSlideCarousel .owl-next {
   position: absolute;
-  right: 7%;
+  right: 2%;
   top: 50%;
   font-size: 50px;
 }
