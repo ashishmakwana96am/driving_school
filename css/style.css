@@ -79,13 +79,7 @@ header {
 }
 
 /* --banner-- */
-/* .banner-img img{
-  height: 910px;
-}
-.owl-dots{
-  margin-top: -56px;
-    margin-left: -16px;
-} */
+
 .banner {
   padding: 50px 0;
 }
@@ -185,6 +179,11 @@ header {
   padding: 20px;
 }
 
+.form-select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ee7623' viewBox='0 0 16 16'%3E%3Cpath d='M1 5l7 7 7-7'/%3E%3C/svg%3E");
+  font-weight: 400;
+  line-height: 1.5;
+}
 /* --courses-- */
 .courses {
   padding: 100px 0;
@@ -230,7 +229,7 @@ header {
 width: 80px;
 }
 #coursesCarousel {
-  padding: 80px 0;
+  padding: 10px 0 80px;
 }
 #coursesCarousel .courses-data {
   margin: 0 20px;
@@ -342,7 +341,7 @@ width: 80px;
   max-width: 80%;
   object-fit: cover;
   position: absolute;
-  top: 40%;
+  top: 49%;
   left: 6%;
 }
 
