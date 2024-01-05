@@ -143,7 +143,7 @@ font-weight: 400;
 
 .about-corporate-section .about-img{
 position: absolute;
-top: 12%;
+top: 7%;
 left: 16%;
 z-index: 3!important;
 }
@@ -210,6 +210,13 @@ width: 64px;
 height: 8px;
 border-radius: 20px;
 }
+.why-choose-left-column{
+    padding-left: 45px;
+}
+.whychoose.about-corporate-section{
+background: linear-gradient(16deg, #ee7623, #ee7623 59.5%, white 57%, white 0%);
+}
+
 
 
 @media (min-width: 1360px) {
@@ -217,8 +224,15 @@ border-radius: 20px;
 .about-mission .container{
 max-width: 1480px;
 }
+.about-person .container{
+    max-width: 1440px;
 }
-
+}
+@media (max-width: 1440px){
+    .about-person .container {
+        max-width: 1358px;
+    }
+    }
 @media (max-width: 1024px) {
 .about-person h2{
     font-size: 40px;
@@ -244,6 +258,9 @@ line-height: 55px;
 }
 .whychoose.about-corporate-section .about-profile-row{
     justify-content: center;
+}
+.corporate-line-left:after{
+    height: 390px;
 }
 }
 
@@ -323,6 +340,13 @@ text-align: center;
 }
 }
 @media (max-width: 768px){
+.about-person-content {
+    padding: 0 30px;
+    margin-top: 55px;
+}
+.about-preson-img-col{
+    text-align: center;
+}
 /* services mobile section */
 .services-data img {
 width: 40px;
@@ -344,7 +368,21 @@ margin-top: 0px;
     padding: 80px 45px 50px;
     height: auto;
 }
-
+.why-choose-right-column{
+    padding-left: 45px;
+}
+.about-mission {
+    padding: 70px 30px 20px;
+}
+.why-choose-left-column, .why-choose-right-column  {
+    padding-left: 40px;
+}
+.about-person .container{
+    padding: 0 20px;
+}
+.about-hero .container{
+    padding: 0 30px;
+}
 }
 
 
@@ -408,12 +446,8 @@ font-size: 24px;
 .about-school p{
 font-size: 18px;
 }
-/* .about-school-row {
-gap: 40px;
-} */
-.about-left-col{
-padding-right: 60px;
-}
+
+
 /* mission section */
 .about-mission h2{
 font-size: 32px;
@@ -458,14 +492,27 @@ padding-bottom: 20px;
 .choose-box:after{
     display: none;
 }
+.whychoose.about-corporate-section .corporate-line-right:after{
+    display: none;
+}
+.about-hero {
+    display: block;
+    padding: 40px 20px 20px;
+}
 }
 
 @media (max-width:425px) {
+    .about-hero .container {
+        padding: 0 10px;
+    }
     .about-school .container {
-        padding: 10px;
+        padding: 10px 20px;
     }
     .about-school {
         padding-top: 40px;
+    }
+    .about-mission {
+        padding: 70px 20px 20px;
     }
     .whychoose.about-corporate-section {
         background: linear-gradient(28deg, #ee7623, #ee7623 81.5%, white 72%, white 0%);
@@ -480,6 +527,12 @@ padding-bottom: 20px;
     }
     .services.about-service {
         padding-top: 10px;
+    }
+    .why-choose-left-column, .why-choose-right-column {
+        padding-left: 20px;
+    }
+    .whychoose.about-corporate-section .container{
+        padding-left: 20px;
     }
     }
 
