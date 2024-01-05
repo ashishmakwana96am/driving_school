@@ -95,10 +95,7 @@ color:#fff;
 font-size: 18px;
 font-weight: 300;
 }
-.about-school-row{
-    gap: 50px;
-    justify-content: center;
-}
+
 
 
 /* about mission css start */
@@ -151,90 +148,219 @@ left: 16%;
 z-index: 3!important;
 }
 .about-corporate-section .choose-box{
-    height: auto;
+height: auto;
 }
 .corporate-line-right:after {
-    position: absolute;
-    content: "";
-    background-color: var(--white-color);
-    height: 456px;
-    width: 1px;
-    top: 14px;
-    left: -30px;
+position: absolute;
+content: "";
+background-color: var(--white-color);
+height: 456px;
+width: 1px;
+top: 14px;
+left: -30px;
 }
 .corporate-line-left:after {
-    position: absolute;
-    content: "";
-    background-color: var(--white-color);
-    height: 350px;
-    width: 1px;
-    top: 14px;
-    left: -30px;
+position: absolute;
+content: "";
+background-color: var(--white-color);
+height: 350px;
+width: 1px;
+top: 14px;
+left: -30px;
 }
 
 /* profile section */
 .about-profile{
-    padding-top: 100px;
-    padding-bottom: 100px;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 .about-profile h2{
-    font-size: 56px;
-    line-height: 66px;
-    font-weight: bold;
-    max-width: 252px;
+font-size: 56px;
+line-height: 66px;
+font-weight: bold;
+max-width: 252px;
 }
 .about-profile .btn {
-    border: 1px solid var(--yellow-color);
-    border-radius: 30px;
-    background-color: var(--yellow-color);
-    color: var(--white-color);
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 600;
-    width: 200px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    text-align: center;
+border: 1px solid var(--yellow-color);
+border-radius: 30px;
+background-color: var(--yellow-color);
+color: var(--white-color);
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 600;
+width: 200px;
+padding-top: 18px;
+padding-bottom: 18px;
+text-align: center;
 }
 .about-profile-box-right{
-    text-align: center;
+text-align: center;
 }
 .about-profile h2{
-    position: relative;
-    }
+position: relative;
+}
 
-    .about-profile h2::before{
+.about-profile h2::before{
+position: absolute;
+content: "";
+background-color: #EE7623;
+top: -18px;
+left: 0;
+width: 64px;
+height: 8px;
+border-radius: 20px;
+}
+
+
+@media (min-width: 1360px) {
+/* about mission css */
+.about-mission .container{
+max-width: 1480px;
+}
+}
+
+@media (max-width: 1024px) {
+.about-person h2{
+    font-size: 40px;
+    line-height: 44px;
+}
+.about-mission h2{
+font-size: 45px;
+line-height: 55px;
+}
+
+.whychoose.about-corporate-section{
+    background: linear-gradient(11deg, #ee7623, #ee7623 69.5%, white 68%, white 0%);
+}
+.about-corporate-section .about-img{
+    top: 4%;
+}
+.whychoose.about-corporate-section .container {
+    padding-top: 316px;
+}
+.whychoose.about-corporate-section .about-profile h2 {
+    font-size: 46px;
+    line-height: 56px;
+}
+.whychoose.about-corporate-section .about-profile-row{
+    justify-content: center;
+}
+}
+
+
+
+@media screen and (min-device-width: 991px) and (max-device-width: 1200px) { 
+.services-data{
+padding-bottom: 30px;
+}
+.services-img{
+margin-top: 53px;
+}
+}
+
+@media (max-width: 991px) {
+.about-hero{
+    background-position: right center;
+}
+.about-person {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.about-person-content {
+    padding-left: 0;
+    margin-top: 55px;
+}
+.about-school{
+    padding-top: 80px;
+}
+.about-mission .about-mission-box{
+    height: auto;
+}
+.about-mission h2{
+    font-size: 40px;
+    line-height: 50px;
+}
+.about-corporate-section .about-img {
     position: absolute;
-    content: "";
-    background-color: #EE7623;
-    top: -18px;
-    left: 0;
-    width: 64px;
-    height: 8px;
-    border-radius: 20px;
-    }
-
-
-
-
-
-
-
+    top: 5%;
+    left: 59%;
+    z-index: 3!important;
+}
+.whychoose.about-corporate-section {
+    background: linear-gradient(19deg, #ee7623, #ee7623 81.5%, white 72%, white 0%);
+}
+.whychoose.about-corporate-section .corporate-line-left:after{
+    height: 482px;
+}
+.about-profile h2 {
+    font-size: 47px;
+    line-height: 62px;
+    max-width: 100%;
+    text-align: start;
+}
+.services .container .row{
+flex-direction: column-reverse;
+}
+.services-img img {
+margin-top: 30px;
+}
+.services-data{
+text-align: center;
+}
+.services-data h2 {
+max-width: 500px;
+margin: 0 auto 30px;
+}
+.services-img img {
+max-width: 500px;
+}
+.col-mobile{
+text-align: center;
+}
+.about-profile {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+}
 @media (max-width: 768px){
+/* services mobile section */
+.services-data img {
+width: 40px;
+}
+
+.services-data h2 {
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.services{
+padding-top: 50px;
+}
+.services-img img {
+margin-top: 0px;
+}
+
+.about-mission .about-mission-box {
+    padding: 80px 45px 50px;
+    height: auto;
+}
 
 }
 
 
 
+@media (max-width:767px) {
 
-
-
-
-
-
-
-
-
+.services-img {
+margin-top: 0px;
+}
+.about-corporate-section .about-img {
+    position: absolute;
+    top: 9%;
+    left: 66%;
+    z-index: 3!important;
+}
+}
 
 
 @media (max-width: 576px){
@@ -250,10 +376,10 @@ display: block;
 padding: 100px 20px 20px;
 }
 .about-hero h1{
-    font-size: 42px;
+font-size: 42px;
 }
 .about-hero .about-content {
-    padding: 100px 0;
+padding: 100px 0;
 }
 
 /* about second section */
@@ -263,48 +389,102 @@ padding-top: 52px;
 }
 
 .about-person {
-    padding-top: 60px;
-    padding-bottom: 60px;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 .about-person h4.about-subtitle{
-    font-size: 18px;
-    line-height: 22px;
+font-size: 18px;
+line-height: 22px;
 }
 .about-person h2{
-    font-size: 30px;
+font-size: 30px;
 line-height: 34px;
 }
 
 /* school section */
 .about-school h4{
-    font-size: 24px;
-    }
+font-size: 24px;
+}
 .about-school p{
-    font-size: 18px;
+font-size: 18px;
 }
-.about-school-row {
-    gap: 40px;
+/* .about-school-row {
+gap: 40px;
+} */
+.about-left-col{
+padding-right: 60px;
 }
-
 /* mission section */
 .about-mission h2{
-    font-size: 32px;
-    line-height: 38px;
-    max-width: 100%;
+font-size: 32px;
+line-height: 38px;
+max-width: 100%;
 }
 .about-mission .about-mission-box{
-    padding: 100px 30px 30px;
-    height: auto;
+padding: 100px 30px 30px;
+height: auto;
 }
 /* whychoose */
 .whychoose .about-img{
-    top:8%;
+top:8%;
 }
 /* profile section */
 .about-profile h2{
-    font-size: 40px;
-    line-height: 46px;
-    font-weight: bold;
-    max-width: max-content;
+font-size: 34px;
+line-height: 38px;
+font-weight: bold;
+max-width: max-content;
+}
+/* --services-- */
+.services-data{
+text-align: center;
+margin-top: 50px;
+}
+.services-data h2{
+font-size: 32px;
+}
+.services-img img {
+max-width: 360px;
+}
+.services-data{
+padding-bottom: 20px;
+}
+.whychoose.about-corporate-section {
+    background: linear-gradient(20deg, #ee7623, #ee7623 86.5%, white 72%, white 0%);
+}
+.whychoose.about-corporate-section .corporate-line-left:after{
+    display: none;
+}
+.choose-box:after{
+    display: none;
 }
 }
+
+@media (max-width:425px) {
+    .about-school .container {
+        padding: 10px;
+    }
+    .about-school {
+        padding-top: 40px;
+    }
+    .whychoose.about-corporate-section {
+        background: linear-gradient(28deg, #ee7623, #ee7623 81.5%, white 72%, white 0%);
+    }
+    .about-corporate-section .about-img {
+        top: 6%;
+        left: 30%;
+    }
+    .about-profile {
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+    .services.about-service {
+        padding-top: 10px;
+    }
+    }
+
+    @media (max-width: 375px) {
+        .whychoose.about-corporate-section {
+            background: linear-gradient(28deg, #ee7623, #ee7623 85.5%, white 72%, white 0%);
+        }
+    }
