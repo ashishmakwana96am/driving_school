@@ -55,14 +55,28 @@
                 <a class="nav-link" href="#">conatct us</a>
               </li>
             </ul>
-            <div class="d-flex nav-search ms-5">
-                <span class="me-3 urdu-text">العربية</span>
+            <div class="d-flex nav-search ms-5 align-items-center gap-4">
+                <!-- <span class="me-3 urdu-text">العربية</span>
                 <form>
                     <span class="search-icon">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </span>
-                </form>
+                </form> -->
+                <div class="language-switcher">
+                    <div class="current-language urdu-text" onclick="toggleDropdown()">English</div>
+                    <div class="language-dropdown" id="languageDropdown">
+                        <div class="language-option" onclick="changeLanguage('en')">English</div>
+                        <div class="language-option" onclick="changeLanguage('ar')">العربية</div>
+                    </div>
+                </div>
+                <form>
+                    <span class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                </form> 
             </div>
+
+
         </div>
         </div>
       </nav>
@@ -484,7 +498,7 @@
             <p>AlRayah Driving Academy</p>
         </div>
         <div class="row">
-            <div class="col-lg-6 col-12">
+            <div class="col-lg-6 col-12 why-choose-left-column">
                 <div class="whychoose-data pe-4 ">
                     <div class="choose-box d-flex gap-4">
                         <h2>01.</h2>
@@ -509,7 +523,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-12">
+            <div class="col-lg-6 col-12 why-choose-right-column">
                 <div class="whychoose-data">
                     <div class="choose-box d-flex gap-4">
                         <h2>04.</h2>
@@ -788,6 +802,34 @@ jQuery(function ($) {
 	$this.countTo(options);
   }
 });
+
+
+
+ // Toggle language dropdown visibility
+ function toggleDropdown() {
+        var dropdown = document.getElementById('languageDropdown');
+        dropdown.style.display = (dropdown.style.display === 'block') ? 'none' : 'block';
+    }
+
+    // Change the current language
+    function changeLanguage(languageCode) {
+        var currentLanguage = document.querySelector('.current-language');
+        var languageName = getLanguageName(languageCode);
+        currentLanguage.innerText = languageName;
+        toggleDropdown(); // Hide the dropdown after selecting a language
+    }
+
+    // Get language name based on language code
+    function getLanguageName(languageCode) {
+        switch (languageCode) {
+            case 'en':
+                return 'English';
+            case 'ar':
+                return 'العربية';
+            default:
+                return languageCode;
+        }
+    }
     </script>
 </body>
 </html>
