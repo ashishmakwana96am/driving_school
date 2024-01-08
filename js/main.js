@@ -188,3 +188,13 @@ switch (languageCode) {
         return languageCode;
 }
 }
+
+// ---course  page---
+
+function changeText(button) {
+    button.innerHTML = "REGISTER NOW";
+  }
+
+  function restoreText(button) {
+    button.innerHTML = "VIEW COURSE";
+  }
