@@ -18,6 +18,32 @@ max-width: 1480px;
 .whychoose.about-corporate-section {
   background: linear-gradient(16deg, #ee7623, #ee7623 61.5%, white 57%, white 0%);
 }
+.courses-data h1 {
+  font-size: 43px;
+}
+.courses-data{
+  padding-top: 40px;
+  }
+  .courses-herosection{
+  background-size: cover;
+  }
+  .courses-data {
+    padding-bottom: 21px;
+    padding-top: 72px;
+}
+.courses-btn .btn {
+  width: 260px;
+  padding-top: 15px;
+  padding-bottom: 14px;
+}
+.courses-btn {
+  bottom: 4%;
+  left: 37%;
+}
+.courses-data{
+  padding-top: 50px;
+  padding-left: 20px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -204,7 +230,12 @@ right: 10%;
 .whychoose .container{
 padding-top: 223px;
 }
-
+.course-img img {
+  top: 30%;
+  left: 42%;
+  width: 100%;
+  max-width: 619px;
+}
 }
 
 
@@ -400,7 +431,32 @@ margin-top: 0px;
 .about-hero-section .container{
   padding: 0 30px;
 }
-
+ /* --course-page---- */
+ .product-btn .btn {
+  font-size: 18px;
+  width: 249px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.course-img img {
+  top: 41%;
+  left: 50%;
+  width: 100%;
+  max-width: 398px;
+}
+.courses-data h1 {
+  font-size: 32px;
+}.courses-data ul li {
+  font-size: 12px;
+}
+.courses-btn .btn {
+  width: 234px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.courses-btn .btn {
+  font-size: 16px;
+}
 }
 
 
@@ -448,6 +504,8 @@ margin-top: 0px;
       left: 66%;
       z-index: 3!important;
   }
+
+ 
 
 }
 @media (max-width: 575px) {
@@ -686,9 +744,29 @@ padding-bottom: 20px;
   .whychoose.about-corporate-section .container{
       padding-left: 20px;
   }
- 
+ .courses-btn {
+  bottom: 39%;
+  left: 21%;
+}
+.courses-data {
+  padding-bottom: 87px;
+}
+.courses-herosection {
+  padding-bottom: 0;
+}
+.product-content h3 {
+  font-size: 28px;
   }
-
+  .courses-herosection{
+    height: 74vh;
+    }
+    .course-img img {
+      top: 70%;
+      left: 6%;
+      width: 100%;
+      max-width: 398px;
+  }
+}
 
 
 @media (max-width:420px) {
@@ -696,8 +774,6 @@ padding-bottom: 20px;
 .register-text {
   display: none;
 }
-
-
 }
 @media (max-width: 375px) {
   .training-rightdata h2{
@@ -710,5 +786,39 @@ padding-bottom: 20px;
 .whychoose.about-corporate-section {
   background: linear-gradient(28deg, #ee7623, #ee7623 85.5%, white 72%, white 0%);
 }
+.courses-data h1 {
+  font-size: 31px;
+}
+.courses-btn {
+  bottom: 37%;
+}
+.product-btn .btn {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
 
+
+
+
+}
+@media (max-width: 320px) {
+  .product-content {
+    padding: 14px;
+}
+.product-content div.gap-3{
+gap: 10px!important;
+}
+.courses-data h1 {
+  font-size: 25px;
+}
+.courses-btn .btn {
+  width: 213px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 14px;
+}
+.courses-btn {
+  bottom: 34%;
+  left: 19%;
+}
 }
