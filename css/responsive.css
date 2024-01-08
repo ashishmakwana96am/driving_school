@@ -44,6 +44,26 @@ max-width: 1480px;
   padding-top: 50px;
   padding-left: 20px;
   }
+
+  .cdetail-data{
+    padding-top: 101px;
+    padding-left: 78px;
+  }
+  .cdetail-data h1 {
+    font-size: 65px;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .cdetail-data ul {
+    margin-bottom: 30px;
+}
+.cdetail-data h3 {
+  margin-bottom: 20px;
+}
+
+.other-courses {
+    padding: 40px 0;
+}
 }
 
 @media (max-width: 1024px) {
@@ -76,6 +96,44 @@ line-height: 55px;
 }
 .corporate-line-left:after{
     height: 390px;
+}
+.cdetail-data {
+  padding-left: 36px;
+}
+
+.cdetail-data h1 {
+  font-size: 41px;
+}
+.cdetail-data h2 {
+  font-size: 28px;
+}
+.cdetail-data p {
+  font-size: 14px;
+}
+.cdetail-data ul li {
+  font-size: 14px;
+}
+.cdetail-data h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.product-detail-courses span {
+  font-size: 16px;
+}
+.cdetail-btn {
+  margin-top: 21px;
+}
+.cdetail-data ul {
+  margin-bottom: 18px;
+}
+.product-detail-courses h4 {
+  font-size: 22px;
+}
+.cdetail-btn .btn {
+  font-size: 18px;
+  width: 254px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 }
 
@@ -323,7 +381,20 @@ text-align: center;
   padding-top: 80px;
   padding-bottom: 40px;
 }
-
+.cdetail-data h1 {
+  font-size: 33px;
+}
+.cdetail-data h2 {
+  font-size: 26px;
+}
+.cdetail-data h3 {
+  font-size: 27px;
+}
+.cdetail-btn .btn {
+  width: 254px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
 
 }
 @media (max-width: 768px) {

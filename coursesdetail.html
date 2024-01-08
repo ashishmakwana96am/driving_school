@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Detail</title>
+    <link rel="stylesheet" href="css/all.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/fonts.css" type="text/css"/>
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/responsive.css" type="text/css"/>
+</head>
+<body>
+    <div class="whatsep-img">
+        <img src="image/whatsapp.svg" alt="">   
+    </div>
+
+    <!-- --header-- -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
+            <div class="container-fluid nav-padding">
+                <div>
+                    <a class="navbar-brand" href="#"><img src="image/logo.svg" alt=""></a>
+                    <a href="#" class="register-text text-uppercase text-decoration-underline">Register Now</a>
+                </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center " id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="facilities.html">facilities</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="faq.html">faq's</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="news.html">news</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">conatct us</a>
+                  </li>
+                </ul>
+                <div class="d-flex nav-search ms-5 align-items-center gap-4">
+                    <div class="language-switcher">
+                        <div class="current-language urdu-text" onclick="toggleDropdown()">English</div>
+                        <div class="language-dropdown" id="languageDropdown">
+                            <div class="language-option" onclick="changeLanguage('en')">English</div>
+                            <div class="language-option" onclick="changeLanguage('ar')">العربية</div>
+                        </div>
+                    </div>
+                    <form>
+                        <span class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </form> 
+                </div>
+    
+    
+            </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="cdetail-herosection">
+        <div class="row">
+            <div class="col-xl-6 col-lg-5 col-md-5 col-12">
+                 <div class="cdetail-data ">
+                    <h1>VIP Car Courses</h1>
+                    <h2>Course Description</h2>
+                    <p>Lorem ipsum dolor sit amet lorem ipsum Lorem ipsum dolor sit amet lorem ipsum Lorem ipsum dolor sit amet lorem ipsum Lorem ipsum dolor sit amet lorem ips</p>
+                    <ul>
+                        <li><i class="fa-regular fa-circle-check pe-2"></i>Priority in Training and Test Dates</li>
+                        <li><i class="fa-regular fa-circle-check pe-2"></i>Simulator Training Program</li>
+                        <li><i class="fa-regular fa-circle-check pe-2"></i>Highly Qualified Multilingual Instructors - Male / Female</li>
+                        <li><i class="fa-regular fa-circle-check pe-2"></i>2 Road Test Chances</li>
+                        <li><i class="fa-regular fa-circle-check pe-2"></i>No Waiting List</li>
+                      </ul>
+                      <h3>Price</h3>
+                      <div class="d-flex align-items-center product-detail-courses gap-3 mb-2">
+                        <span>Full Courses</span>
+                        <h4>QR 2,000</h4>
+                   </div>
+                   <div class="d-flex align-items-center product-detail-courses gap-3">
+                        <span>Half Courses</span>
+                        <h4>QR 1,000</h4>
+                   </div>
+                   <div class="cdetail-btn">
+                    <a class="btn" href="#">register now</a>
+                  </div>   
+                 </div>
+            </div>
+            <div class="col-xl-6 col-lg-7 col-md-7 col-12">
+                <div class="courses-detail-img">
+                    <img src="image/coursedetail.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --other courses-- -->
+    <section class="other-courses">
+        <div class="container">
+            <div class="other-Courses-data">
+                <h2>Other courses available</h2>
+            </div>
+            <div class="row pt-5">
+                   <div class="col-12 col-xl-4 col-lg-6 col-md-6 mb-4">
+                    <div class="product-list shadow">
+                     <div class="product-img position-relative">
+                       <img src="image/gr_2.png" alt="">
+                       <img src="image/promo.png" alt="" class="product-bg-img position-absolute">
+                     </div>
+                     <div class="product-content">
+                       <h3 class="border-bottom">Light Vehicle</h3>
+                       <div class="d-flex align-items-center product-courses gap-3 mb-2">
+                         <span>Full Courses</span>
+                         <h5><del>QR 2,000</del></h5>
+                         <h4>QR 2,000</h4>
+                    </div>
+                    <div class="d-flex align-items-center product-courses gap-3">
+                         <span>Half Courses</span>
+                         <h5><del>QR 2,000</del></h5>
+                         <h4>QR 1,000</h4>
+                    </div>
+                       <div class="product-btn  text-center">
+                         <a href="#" class="btn"  onmouseover="changeText(this)" onmouseout="restoreText(this)">VIEW COURSE</a>
+                       </div>   
+                     </div>
+                     </div>
+                 </div>
+                 <div class="col-12 col-xl-4 col-lg-6 col-md-6 mb-4">
+                    <div class="product-list shadow">
+                     <div class="product-img">
+                       <img src="image/gr_3.png" alt="" >
+                     </div>
+                     <div class="product-content">
+                       <h3 class="border-bottom">Motorcycle</h3>
+                      <div class="d-flex align-items-center product-courses gap-3 mb-2">
+                           <span>Full Courses</span>
+                           <h4>QR 2,000</h4>
+                      </div>
+                      <div class="d-flex align-items-center product-courses gap-3">
+                           <span>Half Courses</span>
+                           <h4>QR 1,000</h4>
+                      </div>
+                       <div class="product-btn  text-center">
+                       <a href="#" class="btn"  onmouseover="changeText(this)" onmouseout="restoreText(this)">VIEW COURSE</a>
+                       </div>
+                    </div>
+                     </div>
+                   </div>
+                 <div class="col-12 col-xl-4 col-lg-6 col-md-6 mb-4">
+                   <div class="product-list shadow">
+                    <div class="product-img">
+                      <img src="image/gr_4.png" alt="" >
+                    </div>
+                    <div class="product-content">
+                      <h3 class="border-bottom">Bus</h3>
+                     <div class="d-flex align-items-center product-courses gap-3 mb-2">
+                          <span>Full Courses</span>
+                          <h4>QR 2,000</h4>
+                     </div>
+                     <div class="d-flex align-items-center product-courses gap-3">
+                          <span>Half Courses</span>
+                          <h4>QR 1,000</h4>
+                     </div>
+                      <div class="product-btn  text-center">
+                       <a href="#" class="btn"  onmouseover="changeText(this)" onmouseout="restoreText(this)">VIEW COURSE</a>
+                      </div>
+                   </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+       <!-- service section -->
+       <section class="services about-service" id="services">
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-md-12 col-12 col-mobile">
+                        <div class="services-img">
+                            <img src="image/services (1).png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-12 col-12 ">
+                      <div class="services-data">
+                        <img src="image/avatar.svg" alt="">
+                        <h2>Our Call Center is at Your services !</h2>
+                        <div class="common-btn banner-btn ">
+                            <button class="btn">Contact us</button>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+        </div>
+      </section>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
