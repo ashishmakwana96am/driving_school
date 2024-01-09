@@ -201,7 +201,12 @@ padding-top: 0;
 }
 }
 @media (max-width: 1024px) {
-
+  .faciliy-section .one-col {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  .main-box{
+    border-bottom: 1px solid #e9e9e9;
+  }
 /* --header-- */
 .register-text {
   font-size: 14px;
@@ -536,12 +541,22 @@ margin-top: 0px;
 .courses-btn .btn {
   font-size: 16px;
 }
+.faciliy-section .one-col {
+  grid-template-columns: repeat(2, 1fr); 
+}
+
 }
 
 
 
 
 @media (max-width:767px) {
+  .courses-detail-img-per {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 40%;
+  }
 /* banner */
 .banner-col{
 margin-bottom: 30px;
@@ -585,7 +600,9 @@ margin-top: 0px;
       left: 66%;
       z-index: 3!important;
   }
-
+  .faciliy-section .one-col {
+    grid-template-columns: repeat(1, 1fr); 
+  }
  
 
 }
