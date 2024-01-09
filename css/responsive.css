@@ -305,6 +305,10 @@ padding-top: 223px;
 
 
 @media (max-width: 991px) {
+  .other-Courses-data h2{
+    font-size: 38px;
+    line-height: 52px;
+  }
 .services .container .row{
 flex-direction: column-reverse;
 }

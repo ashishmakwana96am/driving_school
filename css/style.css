@@ -386,6 +386,9 @@ width: 80px;
   padding-top: 40px;
   margin-top: 60px;
 }
+.services .row{
+  align-items: center;
+}
 .services-data img {
   margin-bottom: 30px;
   width: 80px;
@@ -1060,7 +1063,7 @@ padding-top: 100px;
 .other-Courses-data h2{
   position: relative;
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   padding-top: 30px;
   margin-bottom: 30px;
@@ -1126,7 +1129,7 @@ padding-top: 100px;
 }
 .product-detail-courses h4{
   color: var(--yellow-color);
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 700;
   margin-bottom: 0;
   transition: all 0.5s;
