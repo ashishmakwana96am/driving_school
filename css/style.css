@@ -1083,10 +1083,6 @@ padding-top: 100px;
   border-radius: 20px;
 }
 
-
-
-
-
 .cdetail-data{
   padding-bottom: 50px;
   padding-top: 140px;
@@ -1101,7 +1097,6 @@ padding-top: 100px;
     background-position: top;
     background-size: cover;
     position: relative;
-    /* height: 22vh; */
 }
 .courses-detail-img-per{
   position: absolute;
