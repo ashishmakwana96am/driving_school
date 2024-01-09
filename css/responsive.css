@@ -16,7 +16,11 @@ max-width: 1480px;
 
 
 @media (max-width: 1440px){
-
+  #header .nav-padding {
+    flex-basis: inherit;
+    padding-right: 20px;
+    padding-left: 40px;
+  }
 .about-person .container {
     max-width: 1358px;
 }
@@ -50,9 +54,12 @@ max-width: 1480px;
     padding-left: 78px;
   }
   .cdetail-data h1 {
-    font-size: 65px;
+    font-size: 40px;
     max-width: 100%;
     margin-bottom: 10px;
+  }
+  .cdetail-data h2{
+    font-size: 22px;
   }
   .cdetail-data ul {
     margin-bottom: 30px;

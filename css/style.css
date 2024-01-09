@@ -104,8 +104,7 @@ header {
   font-size: 20px;
 }
 #header .nav-padding {
-  padding-left: 40px;
-  padding-right: 40px;
+  flex-basis: max-content;
 }
 #header .navbar-toggler {
   border: 2px solid var(--yellow-color);
@@ -1081,7 +1080,8 @@ padding-top: 100px;
   padding-top: 140px;
 }
 .cdetail-data h1{
-  font-size: 82px;
+  font-size: 56px;
+  line-height: 66px;
   font-weight: 700;
   max-width: 360px;
   margin-bottom: 30px;
@@ -1089,7 +1089,8 @@ padding-top: 100px;
   margin-bottom: 30px;
 }
 .cdetail-data h2{
-  font-size: 40px;
+  font-size: 32px;
+  line-height: 42px;
   font-weight: 600;
   color: var(--black-color);
 }
@@ -1111,7 +1112,8 @@ padding-top: 100px;
   color: var(--yellow-color);
 }
 .cdetail-data h3{
-  font-size: 40px;
+  font-size: 32px;
+  line-height: 42px;
   font-weight: 600;
   color: var(--black-color);
   margin-bottom: 30px;
