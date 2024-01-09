@@ -1182,11 +1182,27 @@ padding-top: 100px;
 /* --------------
 Facility Page 
 -------------- */
-
+.faciliy-section::before{
+  content: '';
+  background-image: url(../image/ribbon.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  overflow: hidden;
+  position: absolute;
+  transform: translateY(50px);
+  top: 0;
+  left: 205px;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
 
 .faciliy-section{
   padding-top: 200px;
-  margin-bottom: 150px;
+  margin-bottom: 240px;
+  position: relative;
 }
 .faciliy-section h1 {
   font-size: 56px;
