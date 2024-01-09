@@ -207,6 +207,9 @@ padding-top: 0;
   .main-box{
     border-bottom: 1px solid #e9e9e9;
   }
+  .courses-detail-img-per {
+    top: 88px;
+}
 /* --header-- */
 .register-text {
   font-size: 14px;
@@ -544,7 +547,9 @@ margin-top: 0px;
 .faciliy-section .one-col {
   grid-template-columns: repeat(2, 1fr); 
 }
-
+.courses-detail-img-per {
+  top: 88px;
+}
 }
 
 
@@ -552,9 +557,7 @@ margin-top: 0px;
 
 @media (max-width:767px) {
   .courses-detail-img-per {
-    position: absolute;
     top: 0%;
-    right: 10%;
     width: 40%;
   }
 /* banner */
