@@ -1,5 +1,9 @@
 
-
+@media (min-width: 1440px){
+  .courses-btn {
+    margin-top: -30px;
+   }
+}
 @media (min-width: 1360px) {
 /* about mission css */
 .about-mission .container{
@@ -12,6 +16,7 @@ max-width: 1480px;
 
 
 @media (max-width: 1440px){
+
 .about-person .container {
     max-width: 1358px;
 }
@@ -31,18 +36,13 @@ max-width: 1480px;
     padding-bottom: 21px;
     padding-top: 72px;
 }
-.courses-btn .btn {
-  width: 260px;
-  padding-top: 15px;
-  padding-bottom: 14px;
+.courses-btn .btn{
+  padding: 20px 40px;
 }
-.courses-btn {
-  bottom: 4%;
-  left: 37%;
-}
+
 .courses-data{
   padding-top: 50px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   }
 
   .cdetail-data{
@@ -149,6 +149,7 @@ bottom: 12%;
 left: 50%;
 height: 0;
 }
+
 }
 @media screen and (min-device-width: 991px) and (max-device-width: 1630px) { 
 
@@ -173,9 +174,7 @@ margin-top: 53px;
 .success .container{
   max-width: 1512px;
 }
-/* .department .container{
-  max-width: 1550px;
-} */
+
 
 
 }
@@ -189,6 +188,9 @@ margin-top: 53px;
 }
 .whychoose {
 padding-top: 0;
+}
+.course-img img {
+  max-width: 100%!important;
 }
 }
 @media (max-width: 1024px) {
@@ -289,10 +291,7 @@ right: 10%;
 padding-top: 223px;
 }
 .course-img img {
-  top: 30%;
-  left: 42%;
-  width: 100%;
-  max-width: 619px;
+  max-width: -webkit-fill-available !important;
 }
 }
 
@@ -510,15 +509,12 @@ margin-top: 0px;
   padding-bottom: 16px;
 }
 .course-img img {
-  top: 41%;
-  left: 50%;
-  width: 100%;
-  max-width: 398px;
+  max-width: -webkit-fill-available !important;
 }
 .courses-data h1 {
   font-size: 32px;
 }.courses-data ul li {
-  font-size: 12px;
+  font-size: 17px;
 }
 .courses-btn .btn {
   width: 234px;
@@ -564,7 +560,9 @@ font-size: 28px;
 .services-img {
 margin-top: 0px;
 }
-
+.course-img {
+  padding-top: 40px;
+}
 /* about page css start */
 .services-img {
   margin-top: 0px;
@@ -815,27 +813,20 @@ padding-bottom: 20px;
   .whychoose.about-corporate-section .container{
       padding-left: 20px;
   }
- .courses-btn {
-  bottom: 39%;
-  left: 21%;
+
+
+.course-img {
+  padding-bottom: 30px;
+  padding-top: 0px;
 }
-.courses-data {
-  padding-bottom: 87px;
+.course-img img {
+  max-width: -webkit-fill-available !important;
 }
 .courses-herosection {
-  padding-bottom: 0;
+  padding-bottom: 50px;
 }
 .product-content h3 {
   font-size: 28px;
-  }
-  .courses-herosection{
-    height: 74vh;
-    }
-    .course-img img {
-      top: 70%;
-      left: 6%;
-      width: 100%;
-      max-width: 398px;
   }
 }
 
@@ -844,6 +835,9 @@ padding-bottom: 20px;
 /* banner */
 .register-text {
   display: none;
+}
+.courses-product {
+  padding: 40px 0;
 }
 }
 @media (max-width: 375px) {
