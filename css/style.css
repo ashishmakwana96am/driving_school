@@ -1082,12 +1082,26 @@ padding-top: 100px;
   height: 8px;
   border-radius: 20px;
 }
+
+
+
+
+
 .cdetail-data{
   padding-bottom: 50px;
   padding-top: 140px;
 }
-.col-course-image{
+.courses-detail-img{
   position: relative;
+  padding-top: 100px;
+}
+.col-course-image{
+  background-image: url(../image/Frame\ bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    /* height: 22vh; */
 }
 .courses-detail-img-per{
   position: absolute;

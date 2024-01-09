@@ -74,6 +74,8 @@ max-width: 1480px;
 }
 
 @media (max-width: 1024px) {
+
+  courses-detail-img
 .about-person h2{
     font-size: 40px;
     line-height: 44px;
@@ -550,12 +552,24 @@ margin-top: 0px;
 .courses-detail-img-per {
   top: 88px;
 }
+.courses-detail-img {
+  position: relative;
+  padding-top: 184px;
+}
+.col-course-image {
+  height: 91vh;
+}
+
 }
 
 
 
 
 @media (max-width:767px) {
+  .courses-detail-img {
+    position: relative;
+    padding-top: 100px;
+  }
   .courses-detail-img-per {
     top: 0%;
     width: 40%;
@@ -813,6 +827,13 @@ padding-bottom: 20px;
 
 }
 @media (max-width:425px) {
+  /* .col-course-image {
+    background-size: cover;
+    height: 500px;
+} */
+.col-course-image {
+  height: auto;
+}
   .about-hero-section .container {
       padding: 0 10px;
   }
