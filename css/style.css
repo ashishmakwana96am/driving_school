@@ -1323,3 +1323,6 @@ button.accordion-button.collapsed {
   margin: auto;
 
 }
+.acco-content p{
+  font-weight: 600;
+}
