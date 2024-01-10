@@ -659,6 +659,10 @@ margin-top: 0px;
 .faciliy-section h1 {
   font-size: 46px;
 }
+.accordion-button {
+  font-size: 14px;
+  font-weight: 600;
+}
 
 }
 @media (max-width: 575px) {
