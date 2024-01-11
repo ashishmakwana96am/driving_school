@@ -198,3 +198,26 @@ function changeText(button) {
   function restoreText(button) {
     button.innerHTML = "VIEW COURSE";
   }
+
+
+
+  $('.faciliy-detail-section .owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    items:1,
+    dots:false,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+

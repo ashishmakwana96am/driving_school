@@ -1229,7 +1229,13 @@ Facility Page
   gap: 0px;
   justify-content: space-around; 
 }
-  
+.faci-box:hover h6{
+color: #ee7623;
+font-size: 18px;
+}
+.faci-box:hover img{
+  filter: brightness(1);
+}
 .faci-box {
   text-align: center;
   padding: 46px;
@@ -1240,8 +1246,11 @@ Facility Page
 }
 .faci-box h6{
   margin-top: 20px;
+  transition: all 0.3s;
 }
-
+.faci-box img{
+  filter: brightness(0);
+}
 .main-box:not(:last-child){
   border-right: 1px solid #e9e9e9;
 }
@@ -1249,8 +1258,53 @@ Facility Page
   border-bottom: 1px solid #e9e9e9;
 
 }
-
-
+.faciliy-detail-section{
+  padding-top: 65px;
+}
+.owl-prev span,
+.owl-next span{
+  color: var(--yellow-color);
+  font-weight: 100 !important;
+}
+#singleSlideCarousel .owl-prev {
+  position: absolute;
+  left: 2%;
+  top: 46%;
+  font-size: 83px;
+}
+#singleSlideCarousel .owl-next {
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  font-size: 82px;
+}
+.facility-detail-content  h2 {
+  position: relative;
+  color: #000;
+  font-size: 56px;
+  line-height: 66px;
+  font-weight: 700;
+  position: relative;
+}
+.facility-detail-content h2:after {
+  position: absolute;
+  content: "";
+  background-color: var(--black-color);
+  top: -17px;
+  left: 0;
+  width: 64px;
+  height: 8px;
+  border-radius: 20px;
+}
+.facility-detail-content{
+  margin-top: 90px;
+  margin-bottom: 150px;
+}
+.facility-detail-content p{
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 18px;
+}
 /* ----------
 FAQ Section Css
 ---------- */
@@ -1326,3 +1380,5 @@ button.accordion-button.collapsed {
 .acco-content p{
   font-weight: 600;
 }
+
+

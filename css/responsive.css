@@ -3,6 +3,11 @@
   .courses-btn {
     margin-top: -30px;
    }
+   #singleSlideCarousel .owl-prev,
+#singleSlideCarousel .owl-next
+{
+  top: 40%;
+}
 }
 @media (min-width: 1360px) {
 /* about mission css */
@@ -158,6 +163,11 @@ line-height: 55px;
   width: 254px;
   padding-top: 16px;
   padding-bottom: 16px;
+}
+#singleSlideCarousel .owl-prev,
+#singleSlideCarousel .owl-next
+{
+  top: 37%;
 }
 }
 
@@ -583,6 +593,21 @@ margin-top: 0px;
 .faciliy-section {  
   margin-bottom: 100px;
 }
+.faciliy-detail-section {
+  padding-top: 87px;
+}
+.facility-detail-content h2 {
+  font-size: 45px;
+  line-height: 55px;
+}
+#singleSlideCarousel .owl-prev,
+#singleSlideCarousel .owl-next {
+  top: 33%;
+}
+.facility-detail-content {
+  margin-top: 90px;
+  margin-bottom: 62px;
+}
 }
 
 
@@ -929,8 +954,32 @@ padding-bottom: 20px;
 .facility-content {
   margin-bottom: 10px;
 }
+.facility-detail-content h2 {
+  font-size: 40px;
+  line-height: 50px;
+}
+.facility-detail-content p {
+  font-size: 17px;
+  line-height: 26px;
 }
 
+}
+
+
+
+
+@media (max-width: 575px){
+
+#singleSlideCarousel .owl-prev {
+  top: 17px;
+}
+#singleSlideCarousel .owl-next {
+  top: 17px;
+}
+.faciliy-detail-section {
+  padding-top: 79px;
+}
+}
 
 @media (max-width:420px) {
 /* banner */
@@ -964,8 +1013,22 @@ padding-bottom: 20px;
 }
 
 
+}
 
-
+@media (max-width: 375px) {
+.faciliy-detail-section {
+  padding-top: 58px;
+}
+#singleSlideCarousel .owl-prev {
+  top: 0px;
+}
+#singleSlideCarousel .owl-next {
+  top: 0;
+}
+.owl-prev span, .owl-next span {
+  color: var(--yellow-color);
+  font-weight: 200 !important;
+}
 }
 @media (max-width: 320px) {
   .product-content {
@@ -986,5 +1049,21 @@ gap: 10px!important;
 .courses-btn {
   bottom: 34%;
   left: 19%;
+}
+#singleSlideCarousel .owl-prev,
+#singleSlideCarousel .owl-next {
+  font-size: 70px;
+}
+.facility-detail-content {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.facility-detail-content h2 {
+  font-size: 35px;
+  line-height: 37px;
+}
+.facility-detail-content p {
+  font-size: 15px;
+  line-height: 20px;
 }
 }
