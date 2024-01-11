@@ -1258,6 +1258,10 @@ font-size: 18px;
   border-bottom: 1px solid #e9e9e9;
 
 }
+
+/* --------------
+Facility detail Page 
+-------------- */
 .faciliy-detail-section{
   padding-top: 65px;
 }
@@ -1305,6 +1309,153 @@ font-size: 18px;
   line-height: 30px;
   margin-top: 18px;
 }
+
+/* --------------
+Gallary Page 
+-------------- */
+.gallary-detail-content {
+  padding-top: 190px;
+}
+.gallary-product{
+  margin-top: 40px;
+  margin-bottom: 200px;
+}
+.gallary-detail-content  h2 {
+  position: relative;
+  color: #000;
+  font-size: 56px;
+  line-height: 66px;
+  font-weight: 700;
+  position: relative;
+}
+.gallary-detail-content h2:after {
+  position: absolute;
+  content: "";
+  background-color: var(--yellow-color);
+  top: -17px;
+  left: 0;
+  width: 64px;
+  height: 8px;
+  border-radius: 20px;
+}
+.gallary-image-box {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  box-shadow: 0px 3px 25px #00000012;
+  position: relative;
+  transition: all 0.3s;
+}
+.gallary-image-box::after{
+  transition: all 0.3s;
+  position: absolute;
+  content: '';
+  background: transparent linear-gradient(0deg, #EE7623 0%, #A451185F 51%, #773B1200 100%) 0% 0% no-repeat padding-box;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index:-1;
+}
+.gallary-image-box:hover::after{
+ opacity: 1;
+}
+
+.gallary-img:hover{
+  opacity: 1;
+}
+.gallary-content h3 {
+  font-size: 20px;
+  color: var(--black-color);
+  font-weight: 700;
+  transition: all 0.5s;
+  text-align: center;
+  padding: 32px 0;
+}
+.gallary-list {
+  border-radius: 20px;
+}
+/* .gallery-lable{
+overflow: hidden;
+}
+.gallery-lable::before {
+  content: '';
+  background-image: url(../image/ribbon.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  overflow: hidden;
+  position: absolute;
+  transform: translateY(50px);
+  top: 0;
+  left: 205px;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+} */
+.gallary-list:hover h3{
+  color: var(--yellow-color);
+}
+
+/* --------------
+gallaery detail Page 
+-------------- */
+.gallery-detail-section{
+  padding-top: 65px;
+}
+.owl-prev span,
+.owl-next span{
+  color: var(--yellow-color);
+  font-weight: 100 !important;
+}
+#singleSlideCarousel .owl-prev {
+  position: absolute;
+  left: 2%;
+  top: 46%;
+  font-size: 83px;
+}
+#singleSlideCarousel .owl-next {
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  font-size: 82px;
+}
+.gallery-detail-content  h2 {
+  position: relative;
+  color: #000;
+  font-size: 56px;
+  line-height: 66px;
+  font-weight: 700;
+  position: relative;
+}
+.gallery-detail-content h2:after {
+  position: absolute;
+  content: "";
+  background-color: var(--black-color);
+  top: -17px;
+  left: 0;
+  width: 64px;
+  height: 8px;
+  border-radius: 20px;
+}
+.gallery-detail-content{
+  margin-top: 90px;
+  margin-bottom: 150px;
+}
+.gallery-detail-content p{
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 18px;
+}
+
+
 /* ----------
 FAQ Section Css
 ---------- */
@@ -1381,4 +1532,99 @@ button.accordion-button.collapsed {
   font-weight: 600;
 }
 
+/* ----------
+News Section Css
+---------- */
 
+.news-section{
+  padding-top: 200px;
+  margin-bottom: 200px;
+}
+.news-section  h2 {
+  position: relative;
+  color: #000;
+  font-size: 56px;
+  line-height: 56px;
+  font-weight: 700;
+  position: relative;
+}
+.news-section h2:after {
+  position: absolute;
+  content: "";
+  background-color: var(--yellow-color);
+  top: -17px;
+  left: 0;
+  width: 64px;
+  height: 8px;
+  border-radius: 20px;
+}
+
+.news-list {
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.news-img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+ 
+  transition: all 0.5s;
+  box-shadow: 0px 3px 25px #0000001A;
+  overflow: hidden;
+}
+.news-content {
+  padding: 40px 20px;
+}
+
+.news-section p{
+  color: #9F9F9F;
+  font-size: 18px;
+  line-height: 28px;
+}
+.news-section h5{
+  color: #000000;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.news-section .btn{
+  color: #000000;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  padding: 20px 0 0;
+}
+.news-list:hover img {
+  transform: scale(1.3);
+}
+.news-img img{
+  transition: all 0.5s;
+  width: 100%;
+}
+.news-icon{
+  margin-left: 15px;
+}
+.news-list:hover h5, .news-list:hover .btn{
+  color: var(--yellow-color);
+}
+.news-row{
+  margin-top: 50px;
+}
+.news-section{
+  position: relative;
+}
+.news-section::before {
+  background-image: url(../image/ribbon.png);
+  width: 94%;
+  /* max-width: 150px; */
+  height: 100%;
+  top: 91px;
+  right: 0;
+  bottom: 0;
+  content: '';
+  position: absolute;
+  background-position: top right;
+  padding: 50px 0;
+  background-repeat: no-repeat;
+}
