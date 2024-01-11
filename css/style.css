@@ -1427,7 +1427,7 @@ gallaery detail Page
   top: 50%;
   font-size: 82px;
 }
-.gallery-detail-content  h2 {
+.gallery-detail-content h2 {
   position: relative;
   color: #000;
   font-size: 56px;
@@ -1618,7 +1618,6 @@ News Section Css
 .news-section::before {
   background-image: url(../image/ribbon.png);
   width: 94%;
-  /* max-width: 150px; */
   height: 100%;
   top: 91px;
   right: 0;
@@ -1628,4 +1627,101 @@ News Section Css
   background-position: top right;
   padding: 50px 0;
   background-repeat: no-repeat;
+  z-index: -1;
 }
+
+
+
+/* ----------
+News Section Css
+---------- */
+.news-detail-section::before{
+  display: none;
+}
+.news-detail-section  h2 {
+  position: relative;
+  color: #000;
+  font-size: 56px;
+  line-height: 56px;
+  font-weight: 700;
+  position: relative;
+}
+.news-detail-section h2:after {
+  position: absolute;
+  content: "";
+  background-color: var(--yellow-color);
+  top: -17px;
+  left: 0;
+  right: 0;
+  width: 64px;
+  height: 8px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.blog-details-section{
+  padding-top: 150px;
+}
+.blog-date{
+  color: #717171;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.blog-details-section h2{
+  font-size: 56px;
+  line-height: 66px;
+  font-weight: 700;
+  color: #000000;
+  margin-right: 20px;
+
+}
+.blog-social {
+  gap: 26px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.social-icon i{
+  padding-right: 12px;
+}
+.blog-social p{
+color: #717171;
+font-size: 16px;
+line-height: 26px;
+font-weight: 500;
+margin-bottom: 0 !important;
+}
+.blog-detail-first-content p,
+.blog-detail-sec-content p{
+  color: #333333;
+  font-size: 18px;
+  line-height: 30px;
+
+}
+.blog-detail-paragraph{
+  margin-top: 50px;
+}
+
+.blog-detail-sec-content{
+  margin-top: 33px;
+}
+.blog-detail-sec-content h4{
+  color: #333333;
+  font-size: 24px;
+  font-weight: 34px;
+  font-weight: 700;
+}
+.blog-image-second-box{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.blog-third-box{
+  margin-top: 30px;
+}
+.news-detail-section{
+  padding-top: 100px;
+}
+
+

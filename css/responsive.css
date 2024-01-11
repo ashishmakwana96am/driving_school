@@ -8,6 +8,9 @@
 {
   top: 40%;
 }
+.news-detail-section{
+  padding-top: 100px;
+}
 }
 @media (min-width: 1360px) {
 /* about mission css */
@@ -177,6 +180,13 @@ line-height: 55px;
 }
 .news-section::before {
  display: none;
+}
+.blog-details-section h2 {
+  font-size: 50px;
+  line-height: 66px;
+}
+.news-detail-section{
+  padding-top: 100px;
 }
 }
 
@@ -609,11 +619,19 @@ margin-top: 0px;
   font-size: 45px;
   line-height: 55px;
 }
+.gallery-detail-content h2 {
+  font-size: 45px;
+  line-height: 55px;
+}
 #singleSlideCarousel .owl-prev,
 #singleSlideCarousel .owl-next {
   top: 33%;
 }
 .facility-detail-content {
+  margin-top: 90px;
+  margin-bottom: 62px;
+}
+.gallery-detail-content {
   margin-top: 90px;
   margin-bottom: 62px;
 }
@@ -635,9 +653,11 @@ margin-top: 0px;
   font-size: 40px;
   line-height: 50px;
 }
+.blog-details-section h2 {
+  font-size: 36px;
+  line-height: 49px;
 }
-
-
+}
 
 
 @media (max-width:767px) {
@@ -719,8 +739,18 @@ margin-top: 0px;
   padding-top: 150px;
   margin-bottom: 60px;
 }
-
-
+.blog-details-section h2 {
+  font-size: 30px;
+  line-height: 44px;
+}
+.gallery-detail-content h2 {
+  font-size: 38px;
+  line-height: 55px;
+}
+.gallery-detail-content p {
+  font-size: 17px;
+  line-height: 25px;
+}
 }
 @media (max-width: 575px) {
 /* --banner-- */
@@ -962,7 +992,6 @@ padding-bottom: 20px;
       padding-left: 20px;
   }
 
-
 .course-img {
   padding-bottom: 30px;
   padding-top: 0px;
@@ -994,7 +1023,13 @@ padding-bottom: 20px;
   font-size: 17px;
   line-height: 26px;
 }
-
+.blog-details-section h2 {
+  font-size: 22px;
+  line-height: 35px;
+}
+.blog-details-section {
+  padding-top: 107px;
+}
 }
 
 
@@ -1043,7 +1078,10 @@ padding-bottom: 20px;
   padding-top: 9px;
   padding-bottom: 9px;
 }
-
+.blog-details-section h2 {
+  font-size: 23px;
+  line-height: 31px;
+}
 
 }
 
@@ -1060,6 +1098,11 @@ padding-bottom: 20px;
 .owl-prev span, .owl-next span {
   color: var(--yellow-color);
   font-weight: 200 !important;
+}
+.blog-detail-first-content p, .blog-detail-sec-content p {
+  color: #333333;
+  font-size: 15px;
+  line-height: 27px;
 }
 }
 @media (max-width: 320px) {
@@ -1097,5 +1140,10 @@ gap: 10px!important;
 .facility-detail-content p {
   font-size: 15px;
   line-height: 20px;
+}
+.blog-social {
+  gap: 7px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 }
