@@ -93,19 +93,12 @@ max-width: 1480px;
   .faciliy-section::before{
     display: none;
   }
-  .contact-main-box {
-    display: grid;
-    padding: 0;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
-    margin-top: 40px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    max-width: 500px;
-    margin: auto;
-}
+
 .contact-detail-section {
   margin-bottom: 100px;
+}
+.contact-detail-box {
+  padding: 30px 10px;
 }
 }
 @media (max-width: 1024px) {
@@ -707,6 +700,15 @@ margin-top: 0px;
 .contact-section {
   margin-bottom: 100px;
 }
+.contact-main-box {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  max-width: 500px;
+  margin: auto;
+}
 }
 
 
@@ -1084,9 +1086,8 @@ padding-bottom: 20px;
 .contact-main-box{
   padding: 20px;
 }
-.contact-detail-section h2,
-.contact-box h2{
-  font-size: 40px;
+.contact-detail-section h2, .contact-box h2 {
+  font-size: 35px;
 }
 .contact-form input,
 .contact-form select{
@@ -1099,6 +1100,9 @@ padding-bottom: 20px;
 }
 .contact-box {
   padding: 80px 20px 50px;
+}
+.contact-detail-box {
+  padding: 30px 10px;
 }
 }
 
