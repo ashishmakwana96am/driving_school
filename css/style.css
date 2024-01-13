@@ -1736,13 +1736,10 @@ margin-bottom: 0 !important;
 }
 
 
-/*  */
-/* .responsive-map{
-  overflow: hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-  } */
+/* contact css */
+.google-map{
+  padding-top: 60px;
+}
   .responsive-map iframe{
   left:0;
   top:0;
